@@ -1,6 +1,14 @@
 # 不该提交到 GitHub 的东西
-.tools/          # 本地安装包（220MB，别传上去）
-__pycache__/     # Python 运行缓存
+# 注意：.gitignore 不支持行尾注释，每个模式单独一行
+
+# 本地安装包（220MB，不放仓库）
+.tools/
+
+# Python 运行缓存
+__pycache__/
 *.pyc
-.venv/           # 虚拟环境（后面会用到）
+
+# 虚拟环境
+.venv/
+
 .DS_Store
