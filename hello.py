@@ -1,6 +1,7 @@
 # Day 1: 我的 Python 求职之旅 —— 第一个脚本
 # 运行方式: 在终端里执行  python hello.py
 
+from datetime import date
 print("你好，我是欧阳健，27届，目标是 Python 数据分析方向实习！")
 
 # 我的 8 周作战计划（列表）
@@ -16,5 +17,5 @@ for i, step in enumerate(plan, 1):
     print(f"{i}. {step}")
 
 # 每日打卡（输入输出）
-today = input("今天你学到了什么？输入后回车：")
-print(f"收到！今天你学会了：{today}，明天继续加油 💪")
+input("看懂代码了吗！就想直接打印.")
+print("就知道你叼毛不会，菜笔！还不快学.给你看看都啥时候了\n""今天日期：", date.today())
