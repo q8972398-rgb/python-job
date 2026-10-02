@@ -1,0 +1,10 @@
+{
+  "name": "labspace-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prebuilt static LabSpace portfolio demo",
+  "scripts": {
+    "build": "tar -xzf labspace-demo.tar.gz && cp -r site dist"
+  },
+  "dependencies": {}
+}
